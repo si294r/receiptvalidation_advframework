@@ -9,6 +9,9 @@ $url_production = "https://buy.itunes.apple.com/verifyReceipt";
 
 $url_receipt_validation = $IS_DEVELOPMENT ? $url_sandbox : $url_production;
 
+define('CACHE_USER_DEV', "advdev_user_");
+define('CACHE_USER', "adv_user_");
+
 // IN-GAME COPIES
 
 define('STR_ALERT_INBOX_TITLE1', "FREE CRYSTALS!");
